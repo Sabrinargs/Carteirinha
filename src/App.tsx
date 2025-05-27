@@ -1,11 +1,9 @@
-import { ModeToggle } from "./components/mode-toggle"
+import Home from './pages/home'
 
 function App() {
   return (
     <>
-      <div className="dark:text-red-500 text-blue-500">test dark mode</div>
-
-      <ModeToggle />
+    <Home/>
     </>
   )
 }
